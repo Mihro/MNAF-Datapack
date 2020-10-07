@@ -1,0 +1,9 @@
+{
+	"values": [
+		"mnaf:cctv/common/loop",
+		"mnaf:cctv/camera/loop",
+		"mnaf:cctv/monitor/interact/interact_test",
+		"mnaf:salvage/stage/loop",
+		"mnaf:vent/loop"
+	]
+}
