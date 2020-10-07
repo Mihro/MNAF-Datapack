@@ -1,0 +1,2 @@
+tellraw @a ["Label not paired: ",{"text":"Click to pair.","italic":true,"clickEvent":{"action":"run_command","value":"/trigger PairingTrigger"}},"\n"]
+#summon area_effect_cloud ~ ~ ~ {Duration:6000,Tags:["monitor_pairing_marker"]}

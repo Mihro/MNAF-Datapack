@@ -1,0 +1,1 @@
+tellraw @a "Label already paired.\n"

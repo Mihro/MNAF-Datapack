@@ -1,0 +1,2 @@
+execute as @e[tag=monitor_label,tag=cctv_paired,distance=..0.1] at @s run function mnaf:cctv/monitor/interact/label/edit_mode/paired
+execute as @e[tag=monitor_label,tag=!cctv_paired,distance=..0.1] at @s run function mnaf:cctv/monitor/interact/label/edit_mode/not_paired

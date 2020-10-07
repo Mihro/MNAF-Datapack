@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_spawn_egg"
+    },
+    "title": "Use Spawn Egg",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "mnaf:cctv/root",
+  "criteria": {
+    "use_creeper_egg": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:creeper_spawn_egg",
+          "nbt": "{display:{Name:'\"Place Creeper\"'}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_creeper_egg"
+    ]
+  ],
+  "rewards": {
+    "function": "mnaf:cctv/camera/setup"
+  }
+}

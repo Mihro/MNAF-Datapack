@@ -1,0 +1,1 @@
+execute at @s unless entity @e[tag=camera,distance=..0.1] run function mnaf:cctv/common/viewing/return_player
