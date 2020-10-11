@@ -5,7 +5,7 @@ Datapack for MNAF Season 6
 
 ## Installation
 
-1. Download the latest "zip" release from (MNAF-Datapack/releases.)[https://github.com/Mihro/MNAF-Datapack/releases]
+1. Download the latest "zip" release from [MNAF-Datapack/releases.](https://github.com/Mihro/MNAF-Datapack/releases)
 
 ![](https://i.imgur.com/zzgDfeo.png)
 
