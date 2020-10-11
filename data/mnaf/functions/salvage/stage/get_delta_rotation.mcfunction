@@ -3,7 +3,7 @@
 # scoreboard players set #-1 SalDeltaViewRot -1
 
 # Get angle from player to Salvage
-execute at @a run summon area_effect_cloud ~ ~ ~ {Duration:1200,Tags:["temp_point_to_salvage"]}
+execute at @a run summon area_effect_cloud ~ ~ ~ {Duration:10,Tags:["temp_point_to_salvage"]}
 execute at @e[tag=temp_point_to_salvage] run tp @e[tag=temp_point_to_salvage] ~ ~ ~ facing entity @s feet
 execute as @e[tag=temp_point_to_salvage] store result score @s SalDeltaViewRot run data get entity @s Rotation[0] 10
 
