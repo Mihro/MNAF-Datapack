@@ -1,1 +1,0 @@
-give @s minecraft:slime_spawn_egg{display:{Name:'"Place Monitor"'},EntityTag:{NoAI:1,NoGravity:1,Silent:1,Health:1.0f,Tags:["camera","unset_camera"],Rotation:[0.0f,30.0f],DeathTime:19}}

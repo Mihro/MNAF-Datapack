@@ -1,1 +1,0 @@
-execute as @a[scores={PlaceCamera=1..}] run function mnaf:cctv/camera/place
