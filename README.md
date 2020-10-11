@@ -5,12 +5,14 @@ Datapack for MNAF Season 6
 
 ## Installation
 
-1. Download as ZIP
+1. Download the latest "zip" release from (MNAF-Datapack/releases.)[https://github.com/Mihro/MNAF-Datapack/releases]
 
-![](https://i.imgur.com/nanZfBx.png)
+![](https://i.imgur.com/zzgDfeo.png)
 
-2. Place in `<world save>/datapacks` folder
+2. Open the .zip file to see a folder.
 
-![](https://i.imgur.com/IxeOovU.png)
+3. Place the folder in your `<world save>/datapacks` folder
 
-3. Open your world in Minecraft and type `/reload`
+![](https://i.imgur.com/SG0yVpO.png)
+
+4. Open your world in Minecraft and type `/reload`
