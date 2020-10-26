@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"sal",
+				"salvage_death"
+			],
+			[
+				"score",
+				"scores"
+			],
+			[
+				"look",
+				"looking_at_salvage"
+			],
+			[
 				"ch",
 				"chapter_freddy_q1"
 			],
@@ -14,10 +26,6 @@
 			[
 				"sa",
 				"salvage_progress_next"
-			],
-			[
-				"sal",
-				"SalvageProgressNext"
 			],
 			[
 				"cc",
@@ -70,10 +78,6 @@
 			[
 				"monitor",
 				"monitor_label"
-			],
-			[
-				"score",
-				"scoreboard"
 			],
 			[
 				"label",
@@ -211,6 +215,148 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/E/Mihro/Minecraft/Profiles/1.16 Vanilla/resourcepacks/MNAF 6 RP/assets/minecraft/models/item/netherite_hoe.json",
+			"settings":
+			{
+				"buffer_size": 8533,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/dress/bonnie.mcfunction",
+			"settings":
+			{
+				"buffer_size": 375,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/summon/bonnie.mcfunction",
+			"settings":
+			{
+				"buffer_size": 365,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/loop.mcfunction",
+			"settings":
+			{
+				"buffer_size": 1022,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/death/main.mcfunction",
+			"settings":
+			{
+				"buffer_size": 220,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/death/end.mcfunction",
+			"settings":
+			{
+				"buffer_size": 232,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/chapters/triggers.mcfunction",
+			"settings":
+			{
+				"buffer_size": 9793,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/reset.mcfunction",
+			"settings":
+			{
+				"buffer_size": 206,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/check_increase.mcfunction",
+			"settings":
+			{
+				"buffer_size": 683,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/get_delta_rotation.mcfunction",
+			"settings":
+			{
+				"buffer_size": 1351,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/increase_stage.mcfunction",
+			"settings":
+			{
+				"buffer_size": 156,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/display.mcfunction",
+			"settings":
+			{
+				"buffer_size": 694,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/pose/stage_0.mcfunction",
+			"settings":
+			{
+				"buffer_size": 256,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/pose/stage_1.mcfunction",
+			"settings":
+			{
+				"buffer_size": 263,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/pose/stage_2.mcfunction",
+			"settings":
+			{
+				"buffer_size": 263,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/animatronic/pose/stage_3.mcfunction",
+			"settings":
+			{
+				"buffer_size": 459,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -260,9 +406,23 @@
 	},
 	"expanded_folders":
 	[
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/events",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/minecraft"
 	],
 	"file_history":
 	[
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/summon/salvage_seat.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/summon/foxy.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/dress/foxy.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/pose/stage_3.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/pose/stage_2.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/pose/stage_1.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/pose/stage_0.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/triggers.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/resourcepacks/MNAFPACK/assets/mnaf/models/item/wooden_hoe.json",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/events/end/main.mcfunction",
@@ -383,18 +543,11 @@
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/4/start.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/4/main.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/4/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/3/start.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/3/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/2/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/3/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/2/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/2/start.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/1/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/1/start.mcfunction"
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/3/start.mcfunction"
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -413,6 +566,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"50",
+			"5",
+			" ",
+			", Damage: 0",
+			" ",
+			", tag: {Damage: 0}",
+			" ",
 			"diagnosis_1",
 			"foxy",
 			"21/10/2020",
@@ -533,18 +693,11 @@
 			"opposite",
 			"fit",
 			"wall",
-			"room",
-			"tile",
-			"air",
-			"unless",
-			"#ikea:concrete",
-			"NULL",
-			"type_single",
-			"TileType"
+			"room"
 		],
 		"highlight": true,
-		"in_selection": false,
-		"preserve_case": true,
+		"in_selection": true,
+		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
@@ -569,14 +722,478 @@
 	"groups":
 	[
 		{
+			"selected": 8,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/E/Mihro/Minecraft/Profiles/1.16 Vanilla/resourcepacks/MNAF 6 RP/assets/minecraft/models/item/netherite_hoe.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1036,
+								1036
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "functions/salvage/animatronic/dress/bonnie.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							],
+							[
+								100,
+								100
+							],
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "functions/salvage/animatronic/summon/bonnie.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "functions/salvage/animatronic/loop.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								884,
+								884
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "functions/salvage/animatronic/death/main.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "functions/salvage/animatronic/death/end.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "functions/salvage/chapters/triggers.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "functions/salvage/animatronic/reset.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "functions/salvage/animatronic/check_increase.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "functions/salvage/animatronic/get_delta_rotation.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1178,
+								1178
+							],
+							[
+								1182,
+								1182
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "functions/salvage/animatronic/increase_stage.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "functions/salvage/animatronic/display.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								348
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "functions/salvage/animatronic/pose/stage_0.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "functions/salvage/animatronic/pose/stage_1.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "functions/salvage/animatronic/pose/stage_2.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "functions/salvage/animatronic/pose/stage_3.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								267,
+								267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -613,7 +1230,7 @@
 	"project": "project.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 92.0
 	},
 	"save_all_on_build": true,
 	"select_file":
