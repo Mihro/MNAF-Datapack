@@ -19,6 +19,8 @@ scoreboard players operation @a SalDeltaViewRot -= #1800 SalDeltaViewRot
 # Kill temp
 kill @e[tag=temp_point_to_salvage]
 
+execute as @a if entity @s[scores={SalDeltaViewRot=-700..700},x_rotation=-55..55] run tag @s add looking_at_salvage
+
 # Debug output
-execute as @a if entity @s[scores={SalDeltaViewRot=-750..750}] run tellraw @s "Looking at Salvage"
-execute as @a unless entity @s[scores={SalDeltaViewRot=-750..750}] run tellraw @s "NOT looking at Salvage"
+tellraw @a[tag=looking_at_salvage] "Looking at Salvage"
+tellraw @a[tag=!looking_at_salvage] "NOT looking at Salvage"
