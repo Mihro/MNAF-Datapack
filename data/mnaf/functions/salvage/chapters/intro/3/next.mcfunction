@@ -1,0 +1,1 @@
+tag @a[tag=run_salvage] add chapter_intro_4

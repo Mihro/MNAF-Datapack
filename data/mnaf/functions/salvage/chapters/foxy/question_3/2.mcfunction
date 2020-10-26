@@ -1,0 +1,1 @@
+tellraw @a[tag=run_salvage] "[FLICKERS LIGHTS AND PUTS FOXY AT LEVEL BEFORE KILLING YOU]"

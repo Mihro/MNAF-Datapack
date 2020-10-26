@@ -1,0 +1,1 @@
+tellraw @a[tag=run_salvage] "Examples include: day-old pizza, mildew, vomit, rotting flesh."

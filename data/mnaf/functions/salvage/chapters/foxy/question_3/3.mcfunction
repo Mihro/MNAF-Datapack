@@ -1,0 +1,1 @@
+tellraw @a[tag=run_salvage] "Do you fear for your safety and life?"

@@ -1,0 +1,1 @@
+tellraw @a[tag=run_salvage] "Audio file plays stating welcome to Salvage, gives the player a basic run down."

@@ -1,0 +1,1 @@
+tellraw @a[tag=run_salvage] "Does the animatronic in front of you have a strange smell to it?"
