@@ -5,7 +5,23 @@
 		[
 			[
 				"sal",
-				"salvage_death"
+				"salvage_root"
+			],
+			[
+				"pau",
+				"pause_salvage"
+			],
+			[
+				"pa",
+				"pause_salvage"
+			],
+			[
+				"run",
+				"run_salvage"
+			],
+			[
+				"sa",
+				"salvage"
 			],
 			[
 				"score",
@@ -22,10 +38,6 @@
 			[
 				"cha",
 				"chapters"
-			],
-			[
-				"sa",
-				"salvage_progress_next"
 			],
 			[
 				"cc",
@@ -216,27 +228,28 @@
 	"buffers":
 	[
 		{
-			"file": "/E/Mihro/Minecraft/Profiles/1.16 Vanilla/resourcepacks/MNAF 6 RP/assets/minecraft/models/item/netherite_hoe.json",
+			"file": "functions/salvage/loop.mcfunction",
 			"settings":
 			{
-				"buffer_size": 8533,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "functions/salvage/animatronic/dress/bonnie.mcfunction",
-			"settings":
-			{
-				"buffer_size": 375,
+				"buffer_size": 808,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "functions/salvage/animatronic/summon/bonnie.mcfunction",
+			"file": "functions/salvage/chapters/start_night.mcfunction",
 			"settings":
 			{
-				"buffer_size": 365,
+				"buffer_size": 894,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/salvage/chapters/reset.mcfunction",
+			"settings":
+			{
+				"buffer_size": 375,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -251,10 +264,19 @@
 			}
 		},
 		{
+			"contents": "Todo\nAdd labels to buttons\nMake animatronic jump through you\nAdd scream death sound\nLoop question if gotten wrong\nShorter taser sound\nAdd sound for incorrect answer\nFix buggy start",
+			"settings":
+			{
+				"buffer_size": 180,
+				"line_ending": "Windows",
+				"name": "Todo"
+			}
+		},
+		{
 			"file": "functions/salvage/animatronic/death/main.mcfunction",
 			"settings":
 			{
-				"buffer_size": 220,
+				"buffer_size": 221,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -263,97 +285,7 @@
 			"file": "functions/salvage/animatronic/death/end.mcfunction",
 			"settings":
 			{
-				"buffer_size": 232,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions/salvage/chapters/triggers.mcfunction",
-			"settings":
-			{
-				"buffer_size": 9793,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions/salvage/animatronic/reset.mcfunction",
-			"settings":
-			{
-				"buffer_size": 206,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions/salvage/animatronic/check_increase.mcfunction",
-			"settings":
-			{
-				"buffer_size": 683,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions/salvage/animatronic/get_delta_rotation.mcfunction",
-			"settings":
-			{
-				"buffer_size": 1351,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions/salvage/animatronic/increase_stage.mcfunction",
-			"settings":
-			{
-				"buffer_size": 156,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions/salvage/animatronic/display.mcfunction",
-			"settings":
-			{
-				"buffer_size": 694,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions/salvage/animatronic/pose/stage_0.mcfunction",
-			"settings":
-			{
-				"buffer_size": 256,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions/salvage/animatronic/pose/stage_1.mcfunction",
-			"settings":
-			{
-				"buffer_size": 263,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions/salvage/animatronic/pose/stage_2.mcfunction",
-			"settings":
-			{
-				"buffer_size": 263,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions/salvage/animatronic/pose/stage_3.mcfunction",
-			"settings":
-			{
-				"buffer_size": 459,
-				"encoding": "UTF-8",
+				"buffer_size": 215,
 				"line_ending": "Windows"
 			}
 		}
@@ -410,27 +342,97 @@
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/death",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/pose",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/summon",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/events",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/tags",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/tags/functions",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/minecraft"
 	],
 	"file_history":
 	[
+		"/C/Users/Mihro/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_resource_packs/mob-pit-rp/textures/item_texture.json",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/display.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/pose/stage_0.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/pose/stage_1.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/pose/stage_2.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/pose/stage_3.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/death/main.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/death/end.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/end/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/end/main.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/start/main.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/summon/bonnie.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/start/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/triggers.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/start/start_night.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/start/night/1.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/triggers.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/resourcepacks/MNAF 6 RP/assets/mnaf/models/props/block/shelf2x2roof.json",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/resourcepacks/MNAF 6 RP/assets/minecraft/models/item/netherite_hoe.json",
+		"/C/Users/Mihro/AppData/Local/Temp/7zO47F08644/netherite_hoe.json",
+		"/D/Mihro/Downloads/shelf2x2noroof.json",
+		"/D/Mihro/Downloads/shelf2x2roof.json",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/diagnosis/answer/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/diagnosis/question/main.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/diagnosis/answer/incorrect.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_2/answer/incorrect.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_2/answer/correct.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/diagnosis/answer/correct.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_2/question/main.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_2/question/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/diagnosis/question/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_2/answer/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_1/answer/incorrect.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_1/answer/correct.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_1/question/main.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_1/question/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_1/answer/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/increase_stage.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_1/main.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_1/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/resourcepacks/MNAF 6 RP/assets/mnaf/sounds.json",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/6/main.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/6/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/5/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/5/main.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/4/main.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/4/1.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/4/2.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/4/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/3/main.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/2/main.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/1/main.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/3/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/2/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/1/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_1/1.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_1/2.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_1/3.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_1/correct.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/question_1/incorrect.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/tags/functions/tick.json",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/intro/1.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/diagnosis/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/diagnosis/incorrect.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/diagnosis/correct.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/night_1/diagnosis/1.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_2/next.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/dress/bonnie.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/loop.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/reset.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/check_increase.mcfunction",
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/get_delta_rotation.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/summon/salvage_seat.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/summon/foxy.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/dress/foxy.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/pose/stage_3.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/pose/stage_2.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/pose/stage_1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/pose/stage_0.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/triggers.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/resourcepacks/MNAFPACK/assets/mnaf/models/item/wooden_hoe.json",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/events/end/main.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/diagnosis/1.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/diagnosis/correct.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/diagnosis/incorrect.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/diagnosis/next.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_2/next.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_1/correct.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_1/incorrect.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_1/next.mcfunction",
@@ -477,83 +479,18 @@
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/chica/question_1/4.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/chica/diagnosis/next.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/chica/diagnosis/correct.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/chica/diagnosis/incorrect.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/chica/diagnosis/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/chica/diagnosis/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/diagnosis/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/diagnosis/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/diagnosis/incorrect.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_3/next.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/diagnosis/correct.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_3/correct.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_3/incorrect.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_3/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_3/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_3/2.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_3/3.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_3/4.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_2/next.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_2/2.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_1/next.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_2/correct.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_2/incorrect.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_2/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_2/3.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_2/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_2/next.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_1/correct.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_1/incorrect.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_1/3.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_1/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_2/correct.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_2/incorrect.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_2/3.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_2/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_1/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/foxy/question_1/2.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/diagnosis/next.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/diagnosis/incorrect.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/diagnosis/correct.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_1/correct.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_1/incorrect.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_1/next.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_1/3.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_1/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_2/3.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_2/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_2/2.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/diagnosis/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/diagnosis/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_1/2.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/freddy/question_1/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/diagnosis/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_2/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_2/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_2/2.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_1/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_1/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_1/2.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_1/3.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_1/start.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/intro/4/start.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/intro/3/start.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/intro/2/start.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/intro/1/start.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/intro/1/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/4/start.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/4/main.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/4/1.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/3/start.mcfunction"
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/chica/diagnosis/incorrect.mcfunction"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
 		"height": 160.0,
 		"where_history":
 		[
+			"<open files>",
 			"",
 			"<open files>",
 			"",
@@ -566,6 +503,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"noose",
+			"glass",
+			"bonnie",
+			"function",
+			"bonnie",
+			"salvage_seat",
 			"50",
 			"5",
 			" ",
@@ -687,20 +630,15 @@
 			"execute if score @s TileRotation matches 1 positioned ~ ~ ~ at @e[  tag=tile_pivot,distance=..1] run function ikea:tile_creation/structure_placement/data/type_2x2/name/choose_pool\nexecute if score @s TileRotation matches 2 positioned ~7 ~ ~ at @e[ tag=tile_pivot,distance=..1] run function ikea:tile_creation/structure_placement/data/type_2x2/name/choose_pool\nexecute if score @s TileRotation matches 3 positioned ~7 ~ ~7 at @e[tag=tile_pivot,distance=..1] run function ikea:tile_creation/structure_placement/data/type_2x2/name/choose_pool\nexecute if score @s TileRotation matches 4 positioned ~ ~ ~7 at @e[ tag=tile_pivot,distance=..1] run function ikea:tile_creation/structure_placement/data/type_2x2/name/choose_pool\n\n",
 			"if",
 			"not",
-			"unless",
-			"air",
-			"minecraft:red_wool",
-			"opposite",
-			"fit",
-			"wall",
-			"room"
+			"unless"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"night_1",
 			"",
 			"foxy",
 			"freddy",
@@ -722,195 +660,44 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/E/Mihro/Minecraft/Profiles/1.16 Vanilla/resourcepacks/MNAF 6 RP/assets/minecraft/models/item/netherite_hoe.json",
+					"file": "functions/salvage/loop.mcfunction",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8533,
+						"buffer_size": 808,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1036,
-								1036
+								440,
+								440
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "functions/salvage/animatronic/dress/bonnie.mcfunction",
+					"file": "functions/salvage/chapters/start_night.mcfunction",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 375,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								58,
-								58
-							],
-							[
-								100,
-								100
-							],
-							[
-								145,
-								145
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "functions/salvage/animatronic/summon/bonnie.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 365,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								365,
-								365
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "functions/salvage/animatronic/loop.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1022,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								884,
-								884
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "functions/salvage/animatronic/death/main.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 220,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								163,
-								163
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "functions/salvage/animatronic/death/end.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 232,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								83,
-								83
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "functions/salvage/chapters/triggers.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9793,
+						"buffer_size": 894,
 						"regions":
 						{
 						},
@@ -929,112 +716,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "functions/salvage/animatronic/reset.mcfunction",
+					"buffer": 2,
+					"file": "functions/salvage/chapters/reset.mcfunction",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 206,
+						"buffer_size": 375,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								206,
-								206
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "functions/salvage/animatronic/check_increase.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 683,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								73,
-								73
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "functions/salvage/animatronic/get_delta_rotation.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1351,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1178,
-								1178
-							],
-							[
-								1182,
-								1182
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "functions/salvage/animatronic/increase_stage.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 156,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								114,
-								114
+								33,
+								33
 							]
 						],
 						"settings":
@@ -1049,20 +748,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "functions/salvage/animatronic/display.mcfunction",
+					"buffer": 3,
+					"file": "functions/salvage/animatronic/loop.mcfunction",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 694,
+						"buffer_size": 1022,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								336,
-								348
+								1022,
+								1022
 							]
 						],
 						"settings":
@@ -1073,80 +772,52 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "functions/salvage/animatronic/pose/stage_0.mcfunction",
+					"buffer": 4,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 256,
+						"buffer_size": 180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								256,
-								245
+								180,
+								180
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
+							"auto_name": "Todo",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "functions/salvage/animatronic/pose/stage_1.mcfunction",
+					"buffer": 5,
+					"file": "functions/salvage/animatronic/death/main.mcfunction",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 263,
+						"buffer_size": 221,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								252,
-								263
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/language-mcfunction/mcfunction.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "functions/salvage/animatronic/pose/stage_2.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 263,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								263,
-								263
+								111,
+								111
 							]
 						],
 						"settings":
@@ -1161,20 +832,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
-					"file": "functions/salvage/animatronic/pose/stage_3.mcfunction",
+					"buffer": 6,
+					"file": "functions/salvage/animatronic/death/end.mcfunction",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 459,
+						"buffer_size": 215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								267,
-								267
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1193,7 +864,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -1230,7 +901,7 @@
 	"project": "project.sublime-project",
 	"replace":
 	{
-		"height": 92.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":

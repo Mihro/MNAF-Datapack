@@ -3,8 +3,7 @@
 		"mnaf:cctv/common/loop",
 		"mnaf:cctv/camera/loop",
 		"mnaf:cctv/monitor/interact/interact_test",
-		"mnaf:salvage/animatronic/loop",
-		"mnaf:salvage/chapters/triggers",
+		"mnaf:salvage/loop",
 		"mnaf:vent/loop"
 	]
 }
