@@ -14,14 +14,14 @@ execute if entity @a[tag=chapter_night_1_intro_6] run function mnaf:salvage/chap
 # Player clicked cue button
 execute if entity @a[tag=chapter_night_1_q1] at @e[tag=salvage_button_cue] if block ~ ~ ~ #minecraft:buttons[powered=true] run function mnaf:salvage/chapters/night_1/question_1/question/main
 # Player clicked yes/no button
-execute if entity @a[tag=chapter_night_1_q1_check] at @e[tag=salvage_button_yes] if block ~ ~ ~ #minecraft:buttons[powered=true] run function mnaf:salvage/chapters/night_1/question_1/answer/incorrect
+execute if entity @a[tag=chapter_night_1_q1_check] at @e[tag=salvage_button_yes] if block ~ ~ ~ #minecraft:buttons[powered=true] run function mnaf:salvage/chapters/night_1/question_1/answer/incorrect/main
 execute if entity @a[tag=chapter_night_1_q1_check] at @e[tag=salvage_button_no ] if block ~ ~ ~ #minecraft:buttons[powered=true] run function mnaf:salvage/chapters/night_1/question_1/answer/correct
 
 ## Question 2
 # Player clicked cue button
 execute if entity @a[tag=chapter_night_1_q2] at @e[tag=salvage_button_cue] if block ~ ~ ~ #minecraft:buttons[powered=true] run function mnaf:salvage/chapters/night_1/question_2/question/main
 # Player answers
-execute if entity @a[tag=chapter_night_1_q2_check] at @e[tag=salvage_button_yes] if block ~ ~ ~ #minecraft:buttons[powered=true] run function mnaf:salvage/chapters/night_1/question_2/answer/incorrect
+execute if entity @a[tag=chapter_night_1_q2_check] at @e[tag=salvage_button_yes] if block ~ ~ ~ #minecraft:buttons[powered=true] run function mnaf:salvage/chapters/night_1/question_2/answer/incorrect/main
 execute if entity @a[tag=chapter_night_1_q2_check] at @e[tag=salvage_button_no ] if block ~ ~ ~ #minecraft:buttons[powered=true] run function mnaf:salvage/chapters/night_1/question_2/answer/correct
 
 ## Diagnosis

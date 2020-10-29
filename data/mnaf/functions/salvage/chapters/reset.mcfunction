@@ -1,7 +1,6 @@
 kill @e[tag=salvage_animatronic]
 
-tag @a remove run_salvage
-tag @a remove pause_salvage
+execute as @a[tag=run_salvage] run function mnaf:salvage/setup/reset_salvage_tags
 
 execute at @e[tag=salvage_seat] run setblock ~1 ~2 ~ air
 execute at @e[tag=salvage_seat] run setblock ~-1 ~2 ~ air

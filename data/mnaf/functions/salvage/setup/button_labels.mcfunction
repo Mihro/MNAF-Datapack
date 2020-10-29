@@ -1,0 +1,5 @@
+kill @e[tag=salvage_button_label]
+execute at @e[tag=salvage_button_no  ] run summon minecraft:armor_stand ~ ~0.5 ~ {Marker:1b,NoGravity:1b,Small:1b,Invisible:1b,CustomName:'"No"',  CustomNameVisible:1b,Tags:["salvage","salvage_button_label"]}
+execute at @e[tag=salvage_button_taze] run summon minecraft:armor_stand ~ ~ ~ {   Marker:1b,NoGravity:1b,Small:1b,Invisible:1b,CustomName:'"Tase"',CustomNameVisible:1b,Tags:["salvage","salvage_button_label"]}
+execute at @e[tag=salvage_button_cue ] run summon minecraft:armor_stand ~ ~ ~ {   Marker:1b,NoGravity:1b,Small:1b,Invisible:1b,CustomName:'"Cue"', CustomNameVisible:1b,Tags:["salvage","salvage_button_label"]}
+execute at @e[tag=salvage_button_yes ] run summon minecraft:armor_stand ~ ~0.5 ~ {Marker:1b,NoGravity:1b,Small:1b,Invisible:1b,CustomName:'"Yes"', CustomNameVisible:1b,Tags:["salvage","salvage_button_label"]}

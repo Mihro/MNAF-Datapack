@@ -12,5 +12,3 @@ execute at @e[tag=salvage_button_taze] if block ~ ~ ~ #minecraft:buttons[powered
 
 # Death
 execute if entity @e[tag=animatronic_kills_player] run function mnaf:salvage/animatronic/death/main
-execute as @a[tag=salvage_death] at @s facing entity @e[tag=salvage_root] feet run tp @s ~ ~ ~ ~ ~
-execute if entity @a[tag=salvage_death] as @e[tag=salvage_animatronic] at @s facing entity @p feet run tp @s ^ ^ ^1.3
