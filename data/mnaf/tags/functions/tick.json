@@ -2,7 +2,7 @@
 	"values": [
 		"mnaf:cctv/common/loop",
 		"mnaf:cctv/camera/loop",
-		"mnaf:cctv/monitor/interact/interact_test",
+		"mnaf:cctv/monitor/loop",
 		"mnaf:salvage/loop",
 		"mnaf:vent/loop"
 	]

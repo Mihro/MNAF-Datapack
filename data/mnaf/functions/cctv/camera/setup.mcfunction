@@ -1,10 +1,10 @@
 # Tp camera up to ceiling. (max 7 blocks above)
-execute at @s unless block ~ ~7 ~ air run tp @s ~ ~6.25 ~
-execute at @s unless block ~ ~6 ~ air run tp @s ~ ~5.25 ~
-execute at @s unless block ~ ~5 ~ air run tp @s ~ ~4.25 ~
-execute at @s unless block ~ ~4 ~ air run tp @s ~ ~3.25 ~
-execute at @s unless block ~ ~3 ~ air run tp @s ~ ~2.25 ~
-execute at @s unless block ~ ~2 ~ air run tp @s ~ ~1.25 ~
+execute at @s unless block ~ ~7 ~ air run tp @s ~ ~5.1 ~
+execute at @s unless block ~ ~6 ~ air run tp @s ~ ~4.1 ~
+execute at @s unless block ~ ~5 ~ air run tp @s ~ ~3.1 ~
+execute at @s unless block ~ ~4 ~ air run tp @s ~ ~2.1 ~
+execute at @s unless block ~ ~3 ~ air run tp @s ~ ~1.1 ~
+execute at @s unless block ~ ~2 ~ air run tp @s ~ ~0.1 ~
 
 # Tag camera to mark adjacent blocks at head height
 execute at @s unless block ~1 ~ ~ air run tag @s add camera_wall_east

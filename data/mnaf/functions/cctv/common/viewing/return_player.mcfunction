@@ -1,5 +1,6 @@
-tag @s remove cctv_spectating
+say Return player
 
+# Jump player back to previous position
 tag @s add jump_from
 tag @e[tag=player_previous_pos_marker] add jump_to
 scoreboard players operation @s JumpToID = @s SpectateID
@@ -9,5 +10,8 @@ execute at @e[tag=jump_to_target] run tp @s ~ ~ ~ ~ ~
 kill @e[tag=player_previous_pos_marker,tag=jump_to_target]
 tag @e[tag=jump_to_target] remove jump_to_target
 
-gamemode creative @s
+# Reset player
+tag @s remove cctv_spectating
+effect clear @s
+replaceitem entity @s weapon.offhand air
 title @s actionbar ""

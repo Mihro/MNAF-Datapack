@@ -1,4 +1,9 @@
-execute as @e[tag=camera,tag=cctv_paired,distance=..1] run function mnaf:cctv/common/pairing/camera_already_paired
-execute as @e[tag=camera,tag=!cctv_paired,distance=..1] run function mnaf:cctv/common/pairing/pair_camera
+### Run by player
 
-execute unless entity @s[tag=!pairing_successful,distance=5..] unless entity @e[tag=camera,distance=..1] positioned ^ ^ ^0.2 run function mnaf:cctv/common/pairing/ray
+execute if entity @s[tag=cctv_pairing_player] as @e[tag=camera,tag=cctv_paired, distance=..0.5] run function mnaf:cctv/common/pairing/camera_already_paired
+execute if entity @s[tag=cctv_pairing_player] as @e[tag=camera,tag=!cctv_paired,distance=..0.5] run function mnaf:cctv/common/pairing/pair_camera
+
+# Debug
+summon area_effect_cloud ~ ~ ~ {Duration:100,Rotation:[0f,-90f],Tags:["camera_pairing_ray"]}
+
+execute if entity @s[tag=cctv_pairing_player,distance=..8] positioned ^ ^ ^0.2 run function mnaf:cctv/common/pairing/ray
