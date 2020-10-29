@@ -1,1 +1,0 @@
-execute as @a[scores={VillagerInteract=1..}] at @s run function mnaf:cctv/monitor/interact/interact

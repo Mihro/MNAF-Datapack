@@ -1,0 +1,1 @@
+execute as @e[type=item_frame,sort=nearest,limit=1,distance=..2,nbt={Item:{id:"minecraft:netherite_hoe",tag:{CustomModelData:124}}}]
