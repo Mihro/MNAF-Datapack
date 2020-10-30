@@ -1,5 +1,3 @@
-say Return player
-
 # Jump player back to previous position
 tag @s add jump_from
 tag @e[tag=player_previous_pos_marker] add jump_to
