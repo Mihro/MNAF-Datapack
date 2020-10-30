@@ -294,6 +294,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Mihro/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_resource_packs/mob-pit-rp/animations/cauldron_chimera.animation.json",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/cctv/common/viewing/view.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/resourcepacks/MNAF-6-RP-1.9.1/assets/minecraft/models/item/netherite_hoe.json",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/cctv/monitor/setup/red_desk/labels.mcfunction",
@@ -420,8 +421,7 @@
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/chapters/bonnie/question_2/next.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/dress/bonnie.mcfunction",
 		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/reset.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/check_increase.mcfunction",
-		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/get_delta_rotation.mcfunction"
+		"/E/Mihro/Minecraft/Profiles/1.16 Vanilla/saves/MNAF Datapack Creation/datapacks/MNAF-Datapack/data/mnaf/functions/salvage/animatronic/check_increase.mcfunction"
 	],
 	"find":
 	{
