@@ -2,7 +2,7 @@
 
 scoreboard players reset @s VillagerInteract
 
-tellraw @s "Interacted with monitor"
+#tellraw @s "Interacted with monitor"
 
 tag @e[tag=label_interacted] remove label_interacted
 kill @e[tag=monitor_interact_ray]

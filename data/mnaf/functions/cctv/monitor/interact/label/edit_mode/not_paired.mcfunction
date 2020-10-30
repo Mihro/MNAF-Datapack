@@ -1,1 +1,1 @@
-tellraw @a ["Label not paired: ",{"text":"Click to pair.","italic":true,"clickEvent":{"action":"run_command","value":"/trigger PairingTrigger"}},"\n"]
+tellraw @a[tag=cctv_edit_mode,distance=..5] ["Label ",{"selector":"@s","italic":true}," not paired: ",{"text":"Click to pair.","italic":true,"clickEvent":{"action":"run_command","value":"/trigger PairingTrigger"}},"\n"]
