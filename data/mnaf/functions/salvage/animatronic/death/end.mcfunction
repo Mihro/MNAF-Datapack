@@ -1,4 +1,4 @@
-title @a[tag=salvage_death] title "You died."
+#title @a[tag=salvage_death] title "You died."
 tp @a[tag=salvage_death] 9 56 47 -90 0
 effect clear @a[tag=salvage_death] blindness
 

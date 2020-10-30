@@ -1,4 +1,5 @@
 scoreboard players remove @e[tag=salvage_active] SalvageTimer 1
+#function mnaf:salvage/animatronic/get_delta_rotation
 execute as @e[tag=salvage_active,scores={SalvageTimer=..0}] run function mnaf:salvage/animatronic/check_increase
 
 # Player looking in dropper
