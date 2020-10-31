@@ -15,3 +15,4 @@ execute unless entity @s[nbt={Inventory:[{id:"minecraft:netherite_hoe",tag:{Cust
 
 # Sneak to exit
 execute if entity @s[scores={CameraExitSneak=1..}] run function mnaf:cctv/common/viewing/return_player
+scoreboard players reset @a[scores={CameraExitSneak=1..}] CameraExitSneak
