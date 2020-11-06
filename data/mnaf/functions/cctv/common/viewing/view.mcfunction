@@ -18,6 +18,9 @@ tag @e[tag=jump_to_target] add cctv_spectate_to
 # Move player to camera
 execute at @e[tag=cctv_spectate_to] run tp @s ~ ~ ~ ~ ~
 tag @s add cctv_spectating
+execute at @s run playsound mnaf:cctv.enter_camera player @s
+execute at @s if entity @e[tag=jump_to_target,tag=camera_rotate_clockwise,    distance=..1] run function mnaf:cctv/common/viewing/turning_sound
+execute at @s if entity @e[tag=jump_to_target,tag=camera_rotate_anticlockwise,distance=..1] run function mnaf:cctv/common/viewing/turning_sound
 
 # Reset tags
 scoreboard players set @s CameraExitSneak 0

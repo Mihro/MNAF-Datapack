@@ -13,3 +13,6 @@ tag @s remove cctv_spectating
 effect clear @s
 replaceitem entity @s weapon.offhand air
 title @s actionbar ""
+# Reset camera turning sound
+stopsound @s player
+schedule clear mnaf:cctv/common/viewing/turning_sound
