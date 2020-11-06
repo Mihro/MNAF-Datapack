@@ -1,3 +1,3 @@
 scoreboard players operation @s SalvageTimer = StageDuration SalvageTimer
 scoreboard players add @s SalvageStage 1
-function mnaf:salvage/animatronic/display
+execute as @e[tag=salvage_animatronic] run function mnaf:salvage/animatronic/display

@@ -1,1 +1,0 @@
-tag @a[tag=run_salvage] add chapter_freddy_diagnosis

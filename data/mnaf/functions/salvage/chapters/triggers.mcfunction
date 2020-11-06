@@ -1,5 +1,5 @@
-execute if entity @e[tag=salvage_seat,scores={SalvageNight=1}] run function mnaf:salvage/chapters/night_1/triggers
-
+execute if entity @e[tag=salvage_root,scores={SalvageNight=1}] run function mnaf:salvage/chapters/night_1/triggers
+execute if entity @e[tag=salvage_root,scores={SalvageNight=2}] run function mnaf:salvage/chapters/night_2/triggers
 
 
 

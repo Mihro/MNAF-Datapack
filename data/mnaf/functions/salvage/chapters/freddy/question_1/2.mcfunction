@@ -1,1 +1,0 @@
-tellraw @a[tag=run_salvage] "Did you see any movement?"
