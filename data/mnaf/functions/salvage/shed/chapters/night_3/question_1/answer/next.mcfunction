@@ -1,1 +1,1 @@
-tag @a[tag=run_salvage] add chapter_night_3_diagnosis
+tag @a[tag=run_salvage] add chapter_night_3_q2
