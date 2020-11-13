@@ -27,4 +27,4 @@ scoreboard players set @s CameraExitSneak 0
 tag @e[tag=cctv_spectate_to] remove cctv_spectate_to
 tag @e[tag=jump_to_target] remove jump_to_target
 
-title @s actionbar {"text":"Shift to exit.","color":"black"}
+title @s actionbar {"text":"Shift to exit.","color":"white"}
