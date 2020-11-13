@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.quickSuggestions": {
+			"other": true,
+			"strings": false,
+			"comments": false
+		}
+	}
+}
