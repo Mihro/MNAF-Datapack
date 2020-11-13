@@ -5,4 +5,4 @@ execute as @e[tag=salvage_animatronic] at @s run playsound minecraft:item.armor.
 # Debug
 #say Stage 3
 
-function mnaf:salvage/animatronic/pose/death
+function mnaf:salvage/shed/animatronic/pose/death

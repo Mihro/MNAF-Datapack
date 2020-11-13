@@ -4,4 +4,4 @@ effect clear @a[tag=salvage_death] blindness
 
 tag @a[tag=salvage_death] remove salvage_death
 
-function mnaf:salvage/chapters/reset
+function mnaf:salvage/shed/chapters/reset

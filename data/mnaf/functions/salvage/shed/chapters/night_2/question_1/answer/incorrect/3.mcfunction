@@ -1,1 +1,1 @@
-function mnaf:salvage/chapters/night_2/question_1/question/main
+function mnaf:salvage/shed/chapters/night_2/question_1/question/main
