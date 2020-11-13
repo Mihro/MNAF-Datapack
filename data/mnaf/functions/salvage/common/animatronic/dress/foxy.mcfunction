@@ -1,0 +1,1 @@
+data merge entity @s {ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{id:"minecraft:iron_leggings",Count:1b},{id:"minecraft:iron_chestplate",Count:1b},{id:"minecraft:netherite_hoe",Count:1b,tag:{CustomModelData:59}}],HandItems:[{id:"minecraft:netherite_hoe",Count:1b,tag:{CustomModelData:1}},{id:"minecraft:netherite_hoe",Count:1b,tag:{CustomModelData:8}}]}
