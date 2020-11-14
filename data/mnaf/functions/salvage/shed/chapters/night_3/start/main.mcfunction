@@ -1,7 +1,7 @@
 # Run by: as @e[tag=salvage_root] at @s
 
 # Debug
-say night 3 > start > main
+#say night 3 > start > main
 
 # Tp down
 execute at @s run tp @s ~ ~-3 ~

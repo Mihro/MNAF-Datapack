@@ -1,0 +1,1 @@
+effect give @a[tag=run_salvage] blindness 2 1 true

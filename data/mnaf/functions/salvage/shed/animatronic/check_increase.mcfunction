@@ -1,4 +1,4 @@
-scoreboard players operation @s SalvageTimer = StageDuration SalvageTimer
+scoreboard players operation @s SalvageTimer = ShedStageDuration SalvageTimer
 
 # Gets value for shortest rotation of player view direction to Salvage
 # Returns tag looking_at_salvage

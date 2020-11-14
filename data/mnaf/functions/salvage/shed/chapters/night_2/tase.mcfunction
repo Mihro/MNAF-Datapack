@@ -1,6 +1,6 @@
 tag @e[tag=can_tase] remove can_tase
 
-scoreboard players operation @e[tag=salvage_animatronic] SalvageTimer = StageDuration SalvageTimer
+scoreboard players operation @e[tag=salvage_animatronic] SalvageTimer = ShedStageDuration SalvageTimer
 scoreboard players set @e[tag=salvage_animatronic] SalvageStage 0
 execute as @e[tag=salvage_animatronic] run function mnaf:salvage/shed/animatronic/display
 

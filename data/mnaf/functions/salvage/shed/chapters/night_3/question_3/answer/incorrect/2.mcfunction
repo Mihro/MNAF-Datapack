@@ -1,1 +1,1 @@
-execute as @a[tag=run_salvage] at @s run playsound mnaf:salvage.try_again voice @s
+#execute as @a[tag=run_salvage] at @s run playsound mnaf:salvage.try_again voice @s
