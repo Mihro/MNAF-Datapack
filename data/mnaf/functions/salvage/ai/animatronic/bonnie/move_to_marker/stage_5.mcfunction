@@ -1,4 +1,4 @@
-say Stage 5 Operations
+#say Stage 5 Operations
 
 # Tag for reset if player not near desk
 execute at @e[tag=red_desk_frame,sort=nearest,limit=1] unless entity @a[tag=red_guard,distance=..5] run tag @s add salvage_ai_scare_failed
