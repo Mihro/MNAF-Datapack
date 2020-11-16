@@ -1,7 +1,7 @@
 # Run by: @e[tag=salvage_animatronic,tag=salvage_freddy]
 
 # Move to marker
-execute unless score @s SalvageStage matches 5 run tp @s ~ ~ ~ ~ ~
+tp @s ~ ~ ~ ~ ~
 
 # Copy marker's pose
 data modify entity @s Pose set from entity @e[tag=salvage_freddy_marker,sort=nearest,limit=1] Pose
