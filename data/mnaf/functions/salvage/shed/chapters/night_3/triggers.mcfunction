@@ -28,8 +28,8 @@ execute if entity @a[tag=chapter_night_3_q3_check] at @e[tag=salvage_button_no  
 
 ## Diagnosis
 execute if entity @a[tag=chapter_night_3_diagnosis] run function mnaf:salvage/shed/chapters/night_3/diagnosis/question/main
-execute if entity @a[tag=chapter_night_3_diagnosis_check] at @e[tag=salvage_item_input] unless data block ~ ~ ~ {Items:[]} if data block ~ ~ ~ {    Items:[{id:"minecraft:orange_wool"}]} run function mnaf:salvage/shed/chapters/night_3/diagnosis/answer/correct
-execute if entity @a[tag=chapter_night_3_diagnosis_check] at @e[tag=salvage_item_input] unless data block ~ ~ ~ {Items:[]} unless data block ~ ~ ~ {Items:[{id:"minecraft:orange_wool"}]} run function mnaf:salvage/shed/chapters/night_3/diagnosis/answer/incorrect
+execute if entity @a[tag=chapter_night_3_diagnosis_check] at @e[tag=salvage_item_input] unless data block ~ ~ ~ {Items:[]} if data block ~ ~ ~ {    Items:[{id:"minecraft:green_dye"}]} run function mnaf:salvage/shed/chapters/night_3/diagnosis/answer/correct
+execute if entity @a[tag=chapter_night_3_diagnosis_check] at @e[tag=salvage_item_input] unless data block ~ ~ ~ {Items:[]} unless data block ~ ~ ~ {Items:[{id:"minecraft:green_dye"}]} run function mnaf:salvage/shed/chapters/night_3/diagnosis/answer/incorrect
 
 ## End
 execute if entity @a[tag=chapter_night_3_end] run function mnaf:salvage/shed/chapters/night_3/end/main
