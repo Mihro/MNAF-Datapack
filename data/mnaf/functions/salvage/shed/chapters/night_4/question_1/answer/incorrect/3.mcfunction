@@ -1,0 +1,1 @@
+function mnaf:salvage/shed/chapters/night_4/question_1/question/main

@@ -1,0 +1,1 @@
+execute as @e[tag=salvage_animatronic] run function mnaf:salvage/shed/animatronic/increase_stage

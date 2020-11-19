@@ -29,5 +29,14 @@ tag @s remove chapter_night_3_diagnosis
 tag @s remove chapter_night_3_diagnosis_check
 tag @s remove chapter_night_3_end
 
+tag @s remove chapter_night_4_intro_1
+tag @s remove chapter_night_4_diagnosis
+tag @s remove chapter_night_4_diagnosis_check
+tag @s remove chapter_night_4_q1
+tag @s remove chapter_night_4_q1_check
+tag @s remove chapter_night_4_q2
+tag @s remove chapter_night_4_q2_check
+tag @s remove chapter_night_4_end
+
 tag @s remove run_salvage
 tag @s remove pause_salvage
