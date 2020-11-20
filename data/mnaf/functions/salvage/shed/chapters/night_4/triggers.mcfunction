@@ -4,10 +4,10 @@ execute as @e[tag=salvage_reveal] at @s unless entity @e[tag=salvage_root,distan
 ## Intro
 execute if entity @a[tag=chapter_night_4_intro_1] run function mnaf:salvage/shed/chapters/night_4/intro/1/main
 
-## Diagnosis
-execute if entity @a[tag=chapter_night_4_diagnosis] run function mnaf:salvage/shed/chapters/night_4/diagnosis/question/main
-execute if entity @a[tag=chapter_night_4_diagnosis_check] at @e[tag=salvage_item_input] unless data block ~ ~ ~ {Items:[]} if data block ~ ~ ~ {    Items:[{id:"minecraft:white_wool"}]} run function mnaf:salvage/shed/chapters/night_4/diagnosis/answer/correct
-execute if entity @a[tag=chapter_night_4_diagnosis_check] at @e[tag=salvage_item_input] unless data block ~ ~ ~ {Items:[]} unless data block ~ ~ ~ {Items:[{id:"minecraft:white_wool"}]} run function mnaf:salvage/shed/chapters/night_4/diagnosis/answer/incorrect
+## Diagnosis 1
+execute if entity @a[tag=chapter_night_4_diagnosis_1] run function mnaf:salvage/shed/chapters/night_4/diagnosis_1/question/main
+execute if entity @a[tag=chapter_night_4_diagnosis_1_check] at @e[tag=salvage_item_input] unless data block ~ ~ ~ {Items:[]} if data block ~ ~ ~ {    Items:[{id:"minecraft:white_wool"}]} run function mnaf:salvage/shed/chapters/night_4/diagnosis_1/answer/correct
+execute if entity @a[tag=chapter_night_4_diagnosis_1_check] at @e[tag=salvage_item_input] unless data block ~ ~ ~ {Items:[]} unless data block ~ ~ ~ {Items:[{id:"minecraft:white_wool"}]} run function mnaf:salvage/shed/chapters/night_4/diagnosis_1/answer/incorrect
 
 ## Question 1
 # Player clicked cue button
@@ -15,6 +15,11 @@ execute if entity @a[tag=chapter_night_4_q1] at @e[tag=salvage_button_cue] if bl
 # Player clicked yes/no button
 execute if entity @a[tag=chapter_night_4_q1_check] at @e[tag=salvage_button_yes] if block ~ ~ ~ #minecraft:buttons[powered=true] run function mnaf:salvage/shed/chapters/night_4/question_1/answer/correct
 execute if entity @a[tag=chapter_night_4_q1_check] at @e[tag=salvage_button_no ] if block ~ ~ ~ #minecraft:buttons[powered=true] run function mnaf:salvage/shed/chapters/night_4/question_1/answer/incorrect/main
+
+## Diagnosis 2
+execute if entity @a[tag=chapter_night_4_diagnosis_2] run function mnaf:salvage/shed/chapters/night_4/diagnosis_2/question/main
+execute if entity @a[tag=chapter_night_4_diagnosis_2_check] at @e[tag=salvage_item_input] unless data block ~ ~ ~ {Items:[]} if data block ~ ~ ~ {    Items:[{id:"minecraft:white_wool"}]} run function mnaf:salvage/shed/chapters/night_4/diagnosis_2/answer/correct
+execute if entity @a[tag=chapter_night_4_diagnosis_2_check] at @e[tag=salvage_item_input] unless data block ~ ~ ~ {Items:[]} unless data block ~ ~ ~ {Items:[{id:"minecraft:white_wool"}]} run function mnaf:salvage/shed/chapters/night_4/diagnosis_2/answer/incorrect
 
 ## Question 2
 # Player clicked cue button

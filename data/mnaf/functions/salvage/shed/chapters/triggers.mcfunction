@@ -1,6 +1,7 @@
 #execute if entity @e[tag=salvage_root,scores={SalvageNight=1}] run function mnaf:salvage/shed/chapters/night_1/triggers
 #execute if entity @e[tag=salvage_root,scores={SalvageNight=2}] run function mnaf:salvage/shed/chapters/night_2/triggers
-execute if entity @e[tag=salvage_root,scores={SalvageNight=3}] run function mnaf:salvage/shed/chapters/night_3/triggers
+#execute if entity @e[tag=salvage_root,scores={SalvageNight=3}] run function mnaf:salvage/shed/chapters/night_3/triggers
+execute if entity @e[tag=salvage_root,scores={SalvageNight=4}] run function mnaf:salvage/shed/chapters/night_4/triggers
 
 
 
