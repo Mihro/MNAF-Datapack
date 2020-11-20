@@ -4,6 +4,7 @@
 		"mnaf:cctv/camera/loop",
 		"mnaf:cctv/monitor/loop",
 		"mnaf:salvage/loop",
-		"mnaf:vent/loop"
+		"mnaf:vent/loop",
+		"mnaf:guard_door/loop"
 	]
 }
