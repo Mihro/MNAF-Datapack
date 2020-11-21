@@ -2,3 +2,4 @@
 
 execute if entity @s[tag=salvage_bonnie_marker] run function mnaf:salvage/common/animatronic/summon/bonnie
 execute if entity @s[tag=salvage_freddy_marker] run function mnaf:salvage/common/animatronic/summon/freddy
+execute if entity @s[tag=salvage_foxy_marker  ] run function mnaf:salvage/common/animatronic/summon/foxy
