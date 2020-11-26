@@ -11,9 +11,6 @@
         "hidden": false
     },
     "criteria": {
-        "parent": {
-            "trigger": "minecraft:impossible"
-        },
         "seat": {
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
@@ -25,6 +22,28 @@
                             "entity": "this",
                             "predicate": {
                                 "nbt": "{Tags:[\"run_salvage_shed\"]}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": -47,
+                                        "max": -41
+                                    },
+                                    "y": {
+                                        "min": 4,
+                                        "max": 7
+                                    },
+                                    "z": {
+                                        "min": -161,
+                                        "max": -149
+                                    }
+                                }
                             }
                         }
                     }
