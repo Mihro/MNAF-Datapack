@@ -9,6 +9,11 @@
 			"other": true,
 			"strings": false,
 			"comments": false
+		},
+		"datapack.features.formatting": false,
+		"datapack.snippets": {
+			"summonAec": "summon minecraft:area_effect_cloud ~ ~ ~ {Duration: 2147483647, Tags: [\"${1:tag}\"]}",
+			"scheduleFunction": "schedule function ${1:path} ${2:time}"
 		}
 	}
 }
