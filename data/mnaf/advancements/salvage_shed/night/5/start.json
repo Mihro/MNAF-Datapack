@@ -1,10 +1,10 @@
 {
-    "parent": "mnaf:salvage_shed/night/5/1",
+    "parent": "mnaf:salvage_shed/seat",
     "display": {
         "icon": {
             "item": "minecraft:yellow_bed"
         },
-        "title": "Night 5 > 2",
+        "title": "Night 5 > Start",
         "description": "",
         "show_toast": false,
         "announce_to_chat": false,
@@ -19,6 +19,6 @@
         }
     },
     "rewards": {
-        "function": "mnaf:salvage/shed/chapters/night_5/part_2/main"
+        "function": "mnaf:salvage/shed/chapters/night_5/start/main"
     }
 }

@@ -1,1 +1,0 @@
-execute align xyz positioned ~0.5 ~-0.3 ~0.5 run summon pig ~ ~ ~ {Silent:1b,NoAI:1b,Invulnerable:1b,DeathTime:19,Saddle:1b,Team:"NoPush",Tags:["salvage","salvage_seat"],ActiveEffects:[{Id:14,Duration:1000000,ShowParticles:0b}]}

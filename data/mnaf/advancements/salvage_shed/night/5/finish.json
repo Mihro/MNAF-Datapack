@@ -1,10 +1,10 @@
 {
-    "parent": "mnaf:salvage_shed/sit",
+    "parent": "mnaf:salvage_shed/night/5/5",
     "display": {
         "icon": {
             "item": "minecraft:yellow_bed"
         },
-        "title": "Night 5 > Init",
+        "title": "Night 5 > Finish",
         "description": "",
         "show_toast": false,
         "announce_to_chat": false,
@@ -14,5 +14,8 @@
         "command": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "function": "mnaf:salvage/shed/chapters/night_5/finish/main"
     }
 }

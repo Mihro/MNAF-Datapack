@@ -24,4 +24,10 @@ execute as @e[tag=salvage,tag=shed,tag=marker,tag=item_input] at @s run setblock
 execute as @e[tag=salvage,tag=shed,tag=marker,tag=item_input] at @s run setblock ~ ~ ~ dropper{CustomName:'"Salvage Box"'} replace
 
 # Summon seat
-summon minecraft:pig -44 4.6 -156 {Invulnerable:true,Rotation:[0f,0f],Silent:true,NoAI:true,NoGravity:true,DeathTime:19s,Saddle:true,Team:"NoPush",Tags:["salvage","shed","seat"]}
+summon minecraft:pig -44 4.6 -156 {Invulnerable:true,Rotation:[0f,0f],Silent:true,NoAI:true,NoGravity:true,DeathTime:19s,Saddle:true,Team:"NoPush",Tags:["salvage","shed","seat"],ActiveEffects:[{Id:14b,Duration:2147483647,ShowParticles:false}]}
+
+# Reset @a salvage stuff
+function mnaf:salvage/shed/reset
+
+# Recommend player sets salvage night score
+tellraw @s [{"text": "Recommended: ", "italic": true, "color": "yellow"}, {"text": "[Click to set Salvage Night]", "clickEvent": {"action": "suggest_command", "value": "/scoreboard players set @e[tag=salvage,tag=shed,tag=root] SalvageNight #"}}]

@@ -1,0 +1,11 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "player",
+        "vehicle": {
+            "type": "minecraft:pig",
+            "nbt": "{Tags:[\"salvage\",\"shed\",\"seat\"]}"
+        }
+    }
+}

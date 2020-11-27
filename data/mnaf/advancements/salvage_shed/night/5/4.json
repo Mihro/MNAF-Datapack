@@ -11,8 +11,14 @@
         "hidden": false
     },
     "criteria": {
-        "command": {
+        "visited": {
+            "trigger": "minecraft:impossible"
+        },
+        "current": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "function": "mnaf:salvage/shed/chapters/night_5/part_4/main"
     }
 }

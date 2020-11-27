@@ -1,5 +1,5 @@
 {
-    "parent": "mnaf:salvage_shed/night/5/init",
+    "parent": "mnaf:salvage_shed/night/5/start",
     "display": {
         "icon": {
             "item": "minecraft:yellow_bed"
@@ -11,8 +11,14 @@
         "hidden": false
     },
     "criteria": {
-        "command": {
+        "visited": {
+            "trigger": "minecraft:impossible"
+        },
+        "current": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "function": "mnaf:salvage/shed/chapters/night_5/part_1/main"
     }
 }

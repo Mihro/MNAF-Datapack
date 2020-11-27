@@ -1,5 +1,5 @@
 {
-    "parent": "mnaf:salvage_shed/root",
+    "parent": "mnaf:salvage_shed/inside",
     "display": {
         "icon": {
             "item": "minecraft:saddle"
@@ -11,7 +11,7 @@
         "hidden": false
     },
     "criteria": {
-        "seat": {
+        "sit": {
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "player": [
@@ -24,28 +24,6 @@
                                 "nbt": "{Tags:[\"run_salvage_shed\"]}"
                             }
                         }
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "position": {
-                                    "x": {
-                                        "min": -47,
-                                        "max": -41
-                                    },
-                                    "y": {
-                                        "min": 4,
-                                        "max": 7
-                                    },
-                                    "z": {
-                                        "min": -161,
-                                        "max": -149
-                                    }
-                                }
-                            }
-                        }
                     }
                 ],
                 "entity": {
@@ -54,5 +32,8 @@
                 }
             }
         }
+    },
+    "rewards": {
+        "function": "mnaf:salvage/shed/start_night"
     }
 }

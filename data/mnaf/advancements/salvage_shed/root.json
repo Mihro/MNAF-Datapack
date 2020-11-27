@@ -4,7 +4,7 @@
             "item": "minecraft:soul_torch"
         },
         "title": "Salvage Shed",
-        "description": "Enter the shed",
+        "description": "",
         "background": "minecraft:textures/block/black_concrete.png",
         "frame": "challenge",
         "show_toast": false,
@@ -13,33 +13,7 @@
     },
     "criteria": {
         "tick": {
-            "trigger": "minecraft:tick",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "position": {
-                                    "x": {
-                                        "min": -47,
-                                        "max": -41
-                                    },
-                                    "y": {
-                                        "min": 4,
-                                        "max": 7
-                                    },
-                                    "z": {
-                                        "min": -157,
-                                        "max": -149
-                                    }
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
+            "trigger": "minecraft:tick"
         }
     }
 }
