@@ -1,1 +1,1 @@
-execute if entity @a[tag=player] as @e[tag=salvage_animatronic,tag=salvage_ai,tag=salvage_active] at @s run function mnaf:salvage/ai/animatronic/loop
+execute if entity @a[tag=player] as @e[tag=salvage,tag=ai,tag=animatronic] at @s run function mnaf:salvage/ai/animatronic/loop

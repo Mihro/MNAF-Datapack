@@ -1,4 +1,4 @@
-# Run by: active salvage animatronic
+# Run by: as @e[tag=salvage,tag=ai,tag=animatronic,tag=active] at @s if stage 5 animatronic exists
 
 # Loop checking of queued scare
 execute if entity @e[tag=scare_queued] unless entity @a[tag=red_guard,tag=cctv_spectating] run function mnaf:salvage/ai/animatronic/stage/scare/start

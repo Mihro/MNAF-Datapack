@@ -1,12 +1,13 @@
 # Run by: active salvage animatronic at stage 5
-
+#say AI > Scare > Check
 # Tag for reset if player not near desk
 execute at @e[tag=red_desk_frame,sort=nearest,limit=1] unless entity @a[tag=red_guard,distance=..5] run tag @s add salvage_ai_scare_failed
 #execute at @e[tag=red_desk_frame,sort=nearest,limit=1] unless entity @a[tag=red_guard,distance=..5] run say Not at desk
 
 # Tag for reset if nearest vent locked
-execute at @s at @e[tag=vent,sort=nearest,limit=1] if entity @e[tag=vent_locked,distance=..0.1] run tag @s add salvage_ai_scare_failed
-#execute at @s at @e[tag=vent,sort=nearest,limit=1] if entity @e[tag=vent_locked,distance=..0.1] run say Vent locked
+#tag @s add vent_lock_check
+#execute at @s run tp @p ~ ~ ~
+#execute at @s as @e[tag=vent,sort=nearest,limit=1] if entity @s[tag=vent_locked] run say vent locked
 
 # Tag for reset if player is being scared
 execute if entity @e[tag=scare_queued] run tag @s add salvage_ai_scare_failed

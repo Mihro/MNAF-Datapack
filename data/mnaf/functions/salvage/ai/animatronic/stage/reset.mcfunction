@@ -2,8 +2,7 @@
 
 # Reset to first stage
 scoreboard players set @s SalvageStage 1
-scoreboard players set @s SalvageTimer 0
-function mnaf:salvage/ai/animatronic/loop_salvage_timer
+scoreboard players operation @s SalvageTimer = AIStageDuration SalvageTimer
 
 # Find targets to move to
 function mnaf:salvage/ai/animatronic/stage/find_move_to_targets

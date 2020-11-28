@@ -1,4 +1,4 @@
-# Run by: @e[tag=salvage_animatronic,tag=salvage_ai,tag=salvage_active]
+# Run by: as @e[tag=salvage,tag=ai,tag=animatronic,tag=active] at @s
 
 # Tag operators
 tag @s add seen_check_target
