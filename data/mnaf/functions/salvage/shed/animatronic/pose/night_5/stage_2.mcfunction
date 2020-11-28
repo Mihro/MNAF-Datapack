@@ -2,4 +2,4 @@ data merge entity @s {Pose:{Head:[0.0f,0.0f,25.0f],LeftArm:[-60.0f,-10.0f,0.0f],
 execute at @e[tag=salvage,tag=shed,tag=marker,tag=root] rotated as @s run tp @s ^ ^ ^0.4
 
 # Debug
-say Stage 2
+#say Stage 2
