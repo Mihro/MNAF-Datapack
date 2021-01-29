@@ -15,4 +15,5 @@ execute as @e[tag=salvage,tag=ai,tag=animatronic] at @s run data modify entity @
 tp @e[tag=salvage,tag=ai,tag=animatronic,sort=nearest,limit=1] ~ ~ ~ ~ ~
 
 # Debug
-execute as @e[tag=salvage,tag=ai,tag=animatronic] run data merge entity @s {Glowing:1b,Invisible:0b}
+execute as @e[tag=salvage,tag=ai,tag=animatronic] run data merge entity @s {Glowing:1b}
+execute as @e[tag=salvage,tag=ai,tag=animatronic] run data merge entity @s {Invisible:0b}
