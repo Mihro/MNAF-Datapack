@@ -5,9 +5,10 @@ execute at @e[tag=red_desk_frame,sort=nearest,limit=1] unless entity @a[tag=red_
 #execute at @e[tag=red_desk_frame,sort=nearest,limit=1] unless entity @a[tag=red_guard,distance=..5] run say Not at desk
 
 # Tag for reset if nearest vent locked
-#tag @s add vent_lock_check
-#execute at @s run tp @p ~ ~ ~
-#execute at @s as @e[tag=vent,sort=nearest,limit=1] if entity @s[tag=vent_locked] run say vent locked
+execute as @s[tag=bonnie] if entity @e[tag=red_office_left_vent,tag=vent_locked] run tag @s add salvage_ai_scare_failed
+execute as @s[tag=chica ] if entity @e[tag=red_office_left_vent,tag=vent_locked] run tag @s add salvage_ai_scare_failed
+execute as @s[tag=freddy] if entity @e[tag=red_office_right_vent,tag=vent_locked] run tag @s add salvage_ai_scare_failed
+execute as @s[tag=foxy  ] if entity @e[tag=red_office_right_vent,tag=vent_locked] run tag @s add salvage_ai_scare_failed
 
 # Tag for reset if player is being scared
 execute if entity @e[tag=scare_queued] run tag @s add salvage_ai_scare_failed
