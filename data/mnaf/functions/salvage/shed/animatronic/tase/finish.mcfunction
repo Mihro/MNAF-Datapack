@@ -1,0 +1,1 @@
+tag @e[tag=shed,tag=root] remove tasing

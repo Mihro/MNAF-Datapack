@@ -11,13 +11,13 @@ kill @e[type=item,x=-44,y=5,z=-156,distance=..1,nbt={Item:{id:"minecraft:saddle"
 ## Salvage Root
 summon minecraft:area_effect_cloud -44 5 -151 {Duration:2147483647,Rotation:[0f,-90f],Tags:["salvage","shed","marker","root"]}
 ## Button No
-summon minecraft:area_effect_cloud -42 6 -157 {Duration:2147483647,Rotation:[0f,-90f],Tags:["salvage","shed","marker","button_no"]}
+summon minecraft:area_effect_cloud -42 6 -157 {Duration:2147483647,Rotation:[0f,-90f],Tags:["salvage","shed","marker","button","no"]}
 ## Button Taze
-summon minecraft:area_effect_cloud -43 6 -154 {Duration:2147483647,Rotation:[0f,-90f],Tags:["salvage","shed","marker","button_taze"]}
+summon minecraft:area_effect_cloud -43 6 -154 {Duration:2147483647,Rotation:[0f,-90f],Tags:["salvage","shed","marker","button","tase"]}
 ## Button Cue
-summon minecraft:area_effect_cloud -45 6 -154 {Duration:2147483647,Rotation:[0f,-90f],Tags:["salvage","shed","marker","button_cue"]}
+summon minecraft:area_effect_cloud -45 6 -154 {Duration:2147483647,Rotation:[0f,-90f],Tags:["salvage","shed","marker","button","cue"]}
 ## Button Yes
-summon minecraft:area_effect_cloud -46 6 -157 {Duration:2147483647,Rotation:[0f,-90f],Tags:["salvage","shed","marker","button_yes"]}
+summon minecraft:area_effect_cloud -46 6 -157 {Duration:2147483647,Rotation:[0f,-90f],Tags:["salvage","shed","marker","button","yes"]}
 ## Item Input Block
 summon minecraft:area_effect_cloud -44 4 -154 {Duration:2147483647,Rotation:[0f,-90f],Tags:["salvage","shed","marker","item_input"]}
 execute as @e[tag=salvage,tag=shed,tag=marker,tag=item_input] at @s run setblock ~ ~ ~ air replace

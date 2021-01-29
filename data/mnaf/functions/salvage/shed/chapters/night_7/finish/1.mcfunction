@@ -1,0 +1,1 @@
+#tag @e[tag=salvage,tag=shed,tag=animatronic,tag=hide] remove hide

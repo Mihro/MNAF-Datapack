@@ -1,0 +1,21 @@
+{
+    "parent": "mnaf:salvage_shed/night/7/1",
+    "display": {
+        "icon": {
+            "item": "minecraft:pink_bed"
+        },
+        "title": "Night 7 > Finish",
+        "description": "",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "command": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "mnaf:salvage/shed/chapters/night_7/finish/main"
+    }
+}
