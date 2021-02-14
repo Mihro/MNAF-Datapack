@@ -1,6 +1,8 @@
 #say Finish
 
 #region Do stuff
+tag @e[tag=salvage,tag=shed,tag=animatronic] remove active
+stopsound @a
 #tag @e[tag=salvage,tag=shed,tag=animatronic] add hide
 #endregion
 

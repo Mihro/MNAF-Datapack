@@ -1,6 +1,6 @@
 # Shed
 kill @e[tag=salvage,tag=shed,tag=animatronic]
-execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] SalvageNight matches 5 run function mnaf:salvage/shed/chapters/night_5/reset_schedules
+execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] SalvageNight matches 5 run function mnaf:salvage/shed/chapters/night_7/reset_schedules
 
 # Players
 stopsound @a[tag=run_salvage_shed]

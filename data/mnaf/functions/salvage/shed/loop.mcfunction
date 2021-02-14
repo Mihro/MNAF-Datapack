@@ -7,9 +7,11 @@
 
 # Revealing and hiding animatronics
 ## Reveal
-execute as @e[tag=salvage,tag=shed,tag=animatronic,tag=reveal] at @s run tp @s ~ ~0.2 ~
+execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] SalvageNight matches 1..6 as @e[tag=salvage,tag=shed,tag=animatronic,tag=reveal] at @s run tp @s ~ ~0.2 ~
+execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] SalvageNight matches 7 as @e[   tag=salvage,tag=shed,tag=animatronic,tag=reveal] at @s run tp @s ~ ~0.05 ~
 ## Hide
-execute as @e[tag=salvage,tag=shed,tag=animatronic,tag=hide  ] at @s run tp @s ~ ~-0.2 ~
+execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] SalvageNight matches 1..6 as @e[tag=salvage,tag=shed,tag=animatronic,tag=hide] at @s run tp @s ~ ~-0.2 ~
+execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] SalvageNight matches 7 as @e[   tag=salvage,tag=shed,tag=animatronic,tag=hide] at @s run tp @s ~ ~-0.05 ~
 
 # Toggle run_salvage_shed tag when sitting/standing
 tag @p[tag=run_salvage_shed,tag= pause_salvage_shed,predicate= mnaf:salvage_shed/sitting_on_seat] remove pause_salvage_shed
