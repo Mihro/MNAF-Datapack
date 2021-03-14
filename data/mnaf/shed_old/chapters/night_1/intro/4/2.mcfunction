@@ -1,1 +1,1 @@
-execute as @a[tag=run_salvage] at @s run playsound mnaf:salvage.night_1.4 voice @s
+execute as @a[tag=run_salvage] at @s run playsound mnaf:salvage.night.1.4 voice @s

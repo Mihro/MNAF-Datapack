@@ -12,5 +12,5 @@ tag @e[tag=shed,tag=root] add scare
 # Player
 function mnaf:salvage/shed/chapters/night_7/reset_schedules
 stopsound @a[tag=run_salvage_shed]
-execute as @a[tag=run_salvage_shed] at @s run playsound mnaf:salvage.night_2.salvage_freddy_scream hostile @s
+execute as @a[tag=run_salvage_shed] at @s run playsound mnaf:salvage.night.2.salvage_freddy_scream hostile @s
 effect give @a[tag=run_salvage_shed] blindness 10 1 true
