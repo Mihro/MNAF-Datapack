@@ -1,5 +1,6 @@
 # Player: invisibility, team join
 execute if entity @s[type=player] run effect give @s invisibility 1000000 0 true
+execute if entity @s[type=player] run effect give @s saturation 1000000 10 true
 execute if entity @s[type=player] run team join Animatronic @s
 
 # Armorstands: set data
