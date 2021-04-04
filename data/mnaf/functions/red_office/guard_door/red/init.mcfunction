@@ -7,4 +7,4 @@ summon villager -34 5 -288.7 {NoAI:1b,Health:1f,NoGravity:1b,Silent:1b,Team:"NoP
 # Button marker
 summon area_effect_cloud -33.5 6.6 -288.7 {Duration:2147483647,Rotation:[0f,-90f],Tags:["guard_door","red","button_marker"]}
 
-function mnaf:guard_door/common/reset_power
+function mnaf:red_office/guard_door/common/reset_power
