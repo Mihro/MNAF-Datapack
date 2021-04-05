@@ -6,6 +6,7 @@
 		"mnaf:salvage/loop",
 		"mnaf:vent/loop",
 		"mnaf:red_office/guard_door/loop",
+		"mnaf:red_office/vents/battery/tick",
 		"mnaf:vixie/loop"
 	]
 }

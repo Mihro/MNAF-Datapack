@@ -1,6 +1,6 @@
 # Run by: as @e[tag=vent]
 
-tag @s[tag=!vent_locked] add toggle_locked
+execute if score Percent VentBattery matches 1.. run tag @s[tag=!vent_locked] add toggle_locked
 tag @s[tag=vent_locked] add toggle_unlocked
 
 execute if entity @s[tag=toggle_unlocked] run tag @s remove vent_locked 
