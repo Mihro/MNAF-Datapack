@@ -1,0 +1,24 @@
+{
+    "parent": "mnaf:salvage_shed/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:saddle"
+        },
+        "title": "Sit on the Seat",
+        "description": ""
+    },
+    "criteria": {
+        "sat": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pig",
+                    "nbt": "{Tags:[\"salvage\",\"shed\",\"seat\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mnaf:salvage/shed/player_sat_on_seat"
+    }
+}
