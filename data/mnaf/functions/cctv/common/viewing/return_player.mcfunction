@@ -10,7 +10,9 @@ tag @e[tag=jump_to_target] remove jump_to_target
 
 # Reset player
 tag @s remove cctv_spectating
-effect clear @s
+effect clear @s levitation
+effect clear @s invisibility
+effect clear @s slowness
 replaceitem entity @s weapon.offhand air
 title @s actionbar ""
 # Reset camera turning sound
