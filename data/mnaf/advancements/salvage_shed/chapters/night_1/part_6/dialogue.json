@@ -1,0 +1,21 @@
+{
+    "parent": "mnaf:salvage_shed/chapters/night_1/part_5/action",
+    "display": {
+        "icon": {
+            "item": "minecraft:white_bed"
+        },
+        "title": "Night 1 > Part 6",
+        "description": "Dialogue"
+    },
+    "criteria": {
+        "visited": {
+            "trigger": "impossible"
+        },
+        "current": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "mnaf:salvage/shed/chapters/night_1/part_6/dialogue"
+    }
+}

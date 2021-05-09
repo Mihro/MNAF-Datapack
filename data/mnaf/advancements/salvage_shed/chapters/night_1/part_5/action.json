@@ -1,0 +1,24 @@
+{
+    "parent": "mnaf:salvage_shed/chapters/night_1/part_5/dialogue",
+    "display": {
+        "icon": {
+            "item": "minecraft:white_bed"
+        },
+        "title": "Night 1 > Part 5",
+        "description": "Action"
+    },
+    "criteria": {
+        "visited": {
+            "trigger": "impossible"
+        },
+        "current": {
+            "trigger": "impossible"
+        },
+        "tick": {
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "mnaf:salvage/shed/chapters/night_1/part_5/action"
+    }
+}
