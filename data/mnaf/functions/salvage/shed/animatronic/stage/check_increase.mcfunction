@@ -1,7 +1,7 @@
 # Run by: as @e[tag=salvage,tag=shed,tag=animatronic,tag=active,scores={SalvageTimer=0}] at @s
 #say Stage > Check Increase
 
-scoreboard players operation @s SalvageTimer = ShedStageDuration SalvageTimer
+scoreboard players operation @s ShedTimer = ShedStageDuration ShedTimer
 
 # Check if salvage animatronic is being viewed
 tag @s add seen_check_target

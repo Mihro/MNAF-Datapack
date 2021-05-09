@@ -7,18 +7,18 @@
 
 # Revealing and hiding animatronics
 ## Reveal
-execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] SalvageNight matches 1..6 as @e[tag=salvage,tag=shed,tag=animatronic,tag=reveal] at @s run tp @s ~ ~0.2 ~
-execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] SalvageNight matches 7 as @e[   tag=salvage,tag=shed,tag=animatronic,tag=reveal] at @s run tp @s ~ ~0.05 ~
+execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] ShedNight matches 1..6 as @e[tag=salvage,tag=shed,tag=animatronic,tag=reveal] at @s run tp @s ~ ~0.2 ~
+execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] ShedNight matches 7 as @e[   tag=salvage,tag=shed,tag=animatronic,tag=reveal] at @s run tp @s ~ ~0.05 ~
 ## Hide
-execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] SalvageNight matches 1..6 as @e[tag=salvage,tag=shed,tag=animatronic,tag=hide] at @s run tp @s ~ ~-0.2 ~
-execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] SalvageNight matches 7 as @e[   tag=salvage,tag=shed,tag=animatronic,tag=hide] at @s run tp @s ~ ~-0.05 ~
+execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] ShedNight matches 1..6 as @e[tag=salvage,tag=shed,tag=animatronic,tag=hide] at @s run tp @s ~ ~-0.2 ~
+execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] ShedNight matches 7 as @e[   tag=salvage,tag=shed,tag=animatronic,tag=hide] at @s run tp @s ~ ~-0.05 ~
 
 # Toggle run_salvage_shed tag when sitting/standing
 tag @p[tag=run_salvage_shed,tag= pause_salvage_shed,predicate= mnaf:salvage_shed/sitting_on_seat] remove pause_salvage_shed
 tag @p[tag=run_salvage_shed,tag=!pause_salvage_shed,predicate=!mnaf:salvage_shed/sitting_on_seat] add pause_salvage_shed
 
 # Run nightly triggers
-execute if entity @a[tag=run_salvage_shed,tag=!pause_salvage_shed] if score @s SalvageNight matches 7 run function mnaf:salvage/shed/chapters/night_7/triggers
+execute if entity @a[tag=run_salvage_shed,tag=!pause_salvage_shed] if score @s ShedNight matches 7 run function mnaf:salvage/shed/chapters/night_7/triggers
 
 # Player looking in dropper
 effect give @a[tag=run_salvage_shed,scores={InspectDropper=1..}] slowness 1 5 true

@@ -1,7 +1,7 @@
 # Scoreboard objectives
-scoreboard objectives add SalvageNight dummy
-scoreboard objectives add SalvageStage dummy
-scoreboard objectives add SalvageTimer dummy
+scoreboard objectives add ShedNight dummy
+scoreboard objectives add ShedStage dummy
+scoreboard objectives add ShedTimer dummy
 
 # Kill salvage shed stuff
 kill @e[tag=salvage,tag=shed]
@@ -30,4 +30,4 @@ summon minecraft:pig -44 4.6 -156 {Invulnerable:true,Rotation:[0f,0f],Silent:tru
 function mnaf:salvage/shed/reset
 
 # Recommend player sets salvage night score
-tellraw @s [{"text": "Recommended: ", "italic": true, "color": "yellow"}, {"text": "[Click to set Salvage Night]", "clickEvent": {"action": "suggest_command", "value": "/scoreboard players set @e[tag=salvage,tag=shed,tag=root] SalvageNight #"}}]
+tellraw @s [{"text": "Recommended: ", "italic": true, "color": "yellow"}, {"text": "[Click to set Salvage Night]", "clickEvent": {"action": "suggest_command", "value": "/scoreboard players set @e[tag=salvage,tag=shed,tag=root] ShedNight #"}}]

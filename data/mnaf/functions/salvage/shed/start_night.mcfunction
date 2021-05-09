@@ -8,4 +8,4 @@ tag @a remove run_salvage_shed
 tag @s add run_salvage_shed
 
 # Start nights
-execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] SalvageNight matches 7 run advancement grant @s only mnaf:salvage_shed/night/7/start
+execute if score @e[tag=salvage,tag=shed,tag=root,limit=1] ShedNight matches 7 run advancement grant @s only mnaf:salvage_shed/night/7/start

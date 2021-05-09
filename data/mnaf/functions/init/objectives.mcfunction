@@ -14,10 +14,10 @@ scoreboard objectives add CameraExitSneak minecraft.custom:minecraft.sneak_time
 
 # Salvage objectives
 scoreboard objectives add InspectDropper minecraft.custom:minecraft.inspect_dropper
-scoreboard objectives add SalvageTimer dummy
-scoreboard objectives add SalvageStage dummy
+scoreboard objectives add ShedTimer dummy
+scoreboard objectives add ShedStage dummy
 scoreboard objectives add SalDeltaViewRot dummy
-scoreboard objectives add SalvageNight dummy
+scoreboard objectives add ShedNight dummy
 
 # Vent objectives
 scoreboard objectives add VentSneak minecraft.custom:minecraft.sneak_time
