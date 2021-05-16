@@ -1,4 +1,4 @@
-say Night 1 > Part 1 > Action
+#say Night 1 > Part 1 > Action
 
 # Revoke adv tick criteria to loop
 advancement revoke @s only mnaf:salvage_shed/chapters/night_1/part_1/action tick

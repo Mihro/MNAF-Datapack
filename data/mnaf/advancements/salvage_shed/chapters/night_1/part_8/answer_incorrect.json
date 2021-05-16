@@ -4,20 +4,17 @@
         "icon": {
             "item": "minecraft:white_bed"
         },
-        "title": "Night 1 > Part 9",
-        "description": "Dialogue",
+        "title": "Night 1 > Part 8",
+        "description": "Answer Yes",
         "announce_to_chat": true,
         "show_toast": false
     },
     "criteria": {
-        "visited": {
-            "trigger": "impossible"
-        },
-        "current": {
+        "no": {
             "trigger": "impossible"
         }
     },
     "rewards": {
-        "function": "mnaf:salvage/shed/chapters/night_1/part_9/dialogue"
+        "function": "mnaf:salvage/shed/chapters/night_1/part_8/answer_incorrect"
     }
 }

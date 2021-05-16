@@ -1,11 +1,13 @@
 {
-    "parent": "mnaf:salvage_shed/chapters/night_1/part_7/action",
+    "parent": "mnaf:salvage_shed/chapters/night_1/part_8/cue",
     "display": {
         "icon": {
             "item": "minecraft:white_bed"
         },
         "title": "Night 1 > Part 8",
-        "description": "Dialogue"
+        "description": "Dialogue",
+        "announce_to_chat": true,
+        "show_toast": false
     },
     "criteria": {
         "visited": {

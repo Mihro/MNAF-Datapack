@@ -1,23 +1,20 @@
 {
-    "parent": "mnaf:salvage_shed/chapters/night_1/part_7/cue",
+    "parent": "mnaf:salvage_shed/chapters/night_1/part_7/action",
     "display": {
         "icon": {
             "item": "minecraft:white_bed"
         },
         "title": "Night 1 > Part 7",
-        "description": "Dialogue",
+        "description": "Answer No",
         "announce_to_chat": true,
         "show_toast": false
     },
     "criteria": {
-        "visited": {
-            "trigger": "impossible"
-        },
-        "current": {
+        "no": {
             "trigger": "impossible"
         }
     },
     "rewards": {
-        "function": "mnaf:salvage/shed/chapters/night_1/part_7/dialogue"
+        "function": "mnaf:salvage/shed/chapters/night_1/part_7/answer_correct"
     }
 }

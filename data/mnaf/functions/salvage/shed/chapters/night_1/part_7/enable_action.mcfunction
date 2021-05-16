@@ -1,7 +1,7 @@
-say Enable action
-
-# Enable part 7 action
-advancement grant @a[advancements={mnaf:salvage_shed/chapters/night_1/part_7/dialogue={current=true}}] only mnaf:salvage_shed/chapters/night_1/part_7/action
+#say Enable action
 
 # Remove dialogue adv
-advancement revoke @a[advancements={mnaf:salvage_shed/chapters/night_1/part_7/dialogue={current=true}}] only mnaf:salvage_shed/chapters/night_1/part_7/dialogue current
+advancement revoke @a[tag=shed_operator] only mnaf:salvage_shed/chapters/night_1/part_7/dialogue current
+
+# Enable part 7 action
+advancement grant @a[tag=shed_operator] only mnaf:salvage_shed/chapters/night_1/part_7/action

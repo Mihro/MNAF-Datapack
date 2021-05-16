@@ -1,0 +1,17 @@
+{
+    "parent": "mnaf:salvage_shed/chapters/night_1/part_7/answer_correct",
+    "criteria": {
+        "visited": {
+            "trigger": "impossible"
+        },
+        "current": {
+            "trigger": "impossible"
+        },
+        "tick": {
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "mnaf:salvage/shed/chapters/night_1/part_8/cue"
+    }
+}
